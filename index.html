@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=4, initial-scale=1.0">
+    <title>String</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.7/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="flex flex-wrap justify-start">
+        <div class="card w-[40vw] bg-base-100 shadow-xl m-2 border-solid border-2 border-slate-400">
+            <div class="card-body">
+                <h2 class="card-title">Método: substring</h2>
+                <p><input class="entrada" type="text" value="" placeholder="valor a verificar"/></p>
+                <p><input class="desde" type="text" value="" placeholder="desde"/></p>
+                <p><input class="hasta" type="text" value="" placeholder="hasta"/></p>
+                <div class="resultado text-red-700">
+                    
+                </div>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary" id="btn_function" onclick="substringTest(this)">Verificar</button>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>
